@@ -1,0 +1,24 @@
+[spotify]
+command=~/.config/i3blocks/spotify
+interval=5
+label=🎵
+[brightness]
+command=~/.config/i3blocks/brightness
+interval=1
+label= ☀
+[battery]
+command=~/.config/i3blocks/scripts/battery.sh
+interval=30
+label= 🔋
+[volume]
+command=~/.config/i3blocks/scripts/volume.sh
+interval=5
+signal=4
+label= 🔊
+
+[time]
+command=date '+%I:%M %P'
+interval=60
+
+
+
